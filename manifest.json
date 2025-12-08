@@ -1,0 +1,8 @@
+{
+    "name": "Hakimi DRM Protocol",
+    "version": "1.0.0",
+    "author": "Hakimi",
+    "description": "Intercepts and decrypts protected character cards automatically.",
+    "js": "index.js",
+    "css": "style.css"
+}
