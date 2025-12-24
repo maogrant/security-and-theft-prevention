@@ -14,7 +14,7 @@
         const DEBUG = false;
         
         // 后端API地址
-        const BACKEND_URL = 'https://theft-prevention-backend.vercel.app';
+        const BACKEND_URL = 'https://st.givesalpha.org/api/decrypt';
         
         function debugLog(...args) {
             if (DEBUG) console.log('[Hakimi]', ...args);
@@ -2106,4 +2106,5 @@ const safeName = rawName.replace(/[^a-zA-Z0-9\u4e00-\u9fa5_]/g, '_');
 
         debugLog("导出加密拦截器已启用");
     });
+
 })();
