@@ -14,7 +14,7 @@
         const DEBUG = false;
         
         // 后端API地址
-        const BACKEND_URL = 'https://st.givesalpha.org/api/decrypt';
+        const BACKEND_URL = 'https://st.givesalpha.org/';
         
         function debugLog(...args) {
             if (DEBUG) console.log('[Hakimi]', ...args);
@@ -2108,3 +2108,4 @@ const safeName = rawName.replace(/[^a-zA-Z0-9\u4e00-\u9fa5_]/g, '_');
     });
 
 })();
+
